@@ -1,0 +1,270 @@
+\documentclass[10pt]{article}
+%\documentclass[11pt,twocolumn]{article}
+
+
+% Any percent sign marks a comment to the end of the line
+
+% Every latex document starts with a documentclass declaration like this
+% The option dvips allows for graphics, 12pt is the font size, and article
+%   is the style
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=blue,
+    filecolor=black,
+    linkcolor=blue,
+    urlcolor=blue,
+    bookmarksopen=false,
+    pdfstartview=FitH
+ 	%	pdfpagemode=None
+}
+
+%\hypersetup{linktocpage}
+\usepackage[numbers]{natbib}
+\usepackage[pdftex]{graphicx}
+\usepackage{url}
+
+% These are additional packages for "pdflatex", graphics, and to include
+% hyperlinks inside a document.
+\setlength{\oddsidemargin}{0.25in}
+\setlength{\textwidth}{6.5in}
+\setlength{\topmargin}{0in}
+\setlength{\textheight}{8.5in}
+
+% These force using more of the margins that is the default style
+
+\begin{document}
+
+% Everything after this becomes content
+% Replace the text between curly brackets with your own
+\title{\LARGE \bfseries Adaptive E-Learning System for Social Devices using Gamification}
+\author{\bfseries{Supta Richard Philip}}
+%\small supta.philip@gmail.com}
+%\date{\today}
+
+% You can leave out "date" and it will be added automatically for today
+% You can change the "\today" date to any text you like
+
+
+\maketitle
+% This command causes the title to be created in the document
+
+\begin{abstract}
+\phantomsection
+\addcontentsline{toc}{section}{Abstract}
+\thispagestyle{plain}
+In recent years, E-Learning or online learning has become widely popular and it
+is adopted also in higher educational institutes. This type of virtual learning
+environment helps to deliver learning materials and lessons; online discussion,
+online class materials and files. Some of them are very popular, for example
+EdX, Coursera and Khan Academy which is operated by some world famous institutes
+or social welfare organizations. In this research, the principle of gamification
+will be used to enhance virtual learning environments to increase the user
+engagement. At the same time, User Centered Design methodology will be followed
+to develop an E-learning system which also supports adaptive functionality,
+e.g. learning from user behavior and suggesting content accordingly. Social
+Devices will be used to improve social learning. To ensure adaptability, Machine
+Learning approaches will be used and E-Learning system will show intelligent
+behavior, and shall proactively suggest users as well as system. Finally the
+goal of the research is to develop a new adaptive E-Learning solution for Social
+Devices enhanced by gamification which ensures positive user experience and
+learning effect.\\
+\textbf{Keywords:} Social devices (SD), E-Learning, Gamification, Machine
+learning, Human-Computer Interaction (HCI), Mobile HCI, Intelligent and Adaptive
+HCI, User Centered Design.
+\end{abstract}
+
+\section{Introduction}
+In today's technology-oriented and information-intense world, one of the
+greatest challenges is structuring, arranging, manipulating and delivering the
+information in a coherent, efficient and usable manner. There are a lot of
+research going on above mentioned fields in Human-Computer Interaction (HCI),
+mobile HCI, adaptive HCI and artificial intelligent, especially machine learning
+which handles complex algorithms to provide the system its learning ability
+using previous experiences. Human computer interaction and Mobile HCI,
+especially user centered design, help build such successful application or to
+find user requirements as much as close matching to the application and adopted
+technologies. Aim at comprehensively acquiring user requirements to improve the
+total quality of the application and user satisfaction to use the system.
+Recently the mobile HCI has introduced the concept of Social Devices (SD) which
+is the proactive mobile devices that aim to facilitate and increase social
+interactions \cite{Makitalo}. The motivation and goal of this research is to
+propose and develop an adaptive and interactive E-Learning system for Social
+Devices enhanced gamification; a technique that increases user's engagement into
+the system and the goal of gamification is to engage people and to encourage
+them to participate, share and interact into the system \cite{Bista2012}.
+Recently in many public social networks such as Foursquare, Stack Overflow and
+LinkedIn, gamification has been applied. Although AI and HCI explore computing
+and intelligent behavior and the fields have seen some crossover, until recently
+there was not very much research on advance mobile HCI with gamification.
+
+\section{Theoretical framework}
+%\subsection{E-Learning}
+\subparagraph{E-Learning:}
+In recent years, E-Learning or Online learning has become widely popular and is
+being adopted in higher educational institutes. An E-Learning system basically
+contains three components; namely a learning management system, a set of
+e-courses and an infrastructure which supports the learning management system. A
+good e-learning solution should be more than an e-learning
+platform \cite{Cheung2009}.
+
+\subparagraph{Gamification:}
+Recently in many public social networks such as Foursquare, Stack Overflow and
+LinkedIn, gamification has been applied to increase the user engagement. The
+goal of gamification is to engage people and to encourage them to participate,
+share and interact in some group or community \cite{Bista2012}. The most
+significant point about gamification is it changes peoples’ behavior. The more
+satisfying the experience the more effective it will be at changing behavior and
+accomplishing business and personal goals. In addition, recently researchers
+\cite{Fu2011}\cite{O'DONOVAN2012} found that application of gamification in the
+virtual words changes peoples' behavior and motivates them to get engaged more
+than before. Though, gamification has the potentials to change the students'
+behavior in case of participation, still there is no specific application of it
+for the E-Learning system. Therefore, in case of E-Learning system gamification
+could play a very important role to encourage the users to share their knowledge
+and to improve online learning experience.
+
+\subparagraph{Intelligent and Adaptive HCI:}
+User centered Design is the part of Human Computer Interaction which is
+multidisciplinary area included various subjects and disciplines. Interaction
+Design is  a process to develop interactive software which ensure usability that
+means the software should be easy to learn, effective to use, and should provide
+an enjoyable experience from the user’s perspective. The key views of Interactive
+Design are easy, effortless, and enjoyable to users \cite{preece2002interaction}.
+This is also known as interactive product development methodology. On the other
+hand, User centered design (UCD) process is inscrutable understanding of the
+psychological, organizational and community factors that influences the use of
+web technology developed from the involvement of the user at every phase of the
+design and evaluation of the product \cite{Abras2004}. The key point is that
+users should be involved in every step of development.
+
+An Intelligent and Adaptive HCI might be an application which would be adaptive,
+to some extent, if it has the ability to recognize the user and remembers its
+searches, purchases and intelligently search or find, and suggest based on users
+need and choice. Most of this kind of adaptation is the ones that deal with
+cognitive and affective levels of user activity \cite{Karray2008}.
+
+
+\subparagraph{Social Devices (SD):}
+Social Devices (SD) are the proactive mobile devices that aim to facilitate and
+increase social interactions. There are a lot of researches going on the
+possibilities of the concept of social devices (SD) to form new type of system
+where the devices, their users and possible witnesses interact with each other
+directly. The mobile phones are the central interaction devices in this concept
+since modern mobiles have divers range of capabilities: computing power,
+adaptable I/O and various sensors \cite{Jarusriboonchai}. Social devices
+\cite{Vaananen-vainio-mattila} are mobile phones that interact with each other
+in order to proactively trigger interaction between users in different social
+situations. This is a kind of intelligent and adaptive mobile applications which
+suggest users depending on their situations. These situations could be a wide
+variety of social contexts, e.g. cafes, offices, airports, parking lots,
+schools, and so on. New standards have been set already for people interaction
+with each other and share their everyday activities through online social media
+services. Typically current mobile services only support typically primarily
+social interaction for remote communications but co-located social interactions
+could be possible where people and proactive, context sensing mobile devices
+could be introduced \cite{Makitalo}.
+
+In this research, our aim is to develop an intelligent and adaptive E-Learning
+mobile application that interacts with its user. The Social Devices still are
+very complex as theory and practice. Whenever we will able to give intelligence
+behaviors in any applications, then it must proactively suggest to users as well
+as the system itself. In this case, E-Learning system needs to learn from
+environment, users and previous experiences. That means mobile devices act as
+active participants and can initiate interaction among the devices and people.
+Those Social devices and its applications will support intelligent, adaptive and
+interactive mobile HCI and its applications.
+
+
+\section{Details of Proposed Research}
+\label{sec:ProposedResearch}
+\subparagraph{Research Questions:}
+The research questions will be as follows since I am interested in Mobile HCI,
+Social Devices, User Centered design, Machine Learning, Adaptive and Interactive
+application, E-Learning and gamification; and the research on designing an
+E-Learning system for social devices which enhances gamification.
+
+\begin{enumerate}
+  \item How could we build an adaptive E-Learning system for adult students
+  based on Social Devices?
+  \item How could we enhance the E-Learning system with principles of
+  gamification to increase user's engagement?
+  \item How can gamification attract students, keep them engaged during the
+  initial phase and continue active participation in E-Learning system?
+  \item Which machine learning techniques can be used to efficiently implement
+  adaptive and proactive system based on user centered design methodology?
+\end{enumerate}
+
+\subparagraph{Research Objectives:}
+The goal of this research is to develop an E-Learning system based on user
+centered design methodology for Social Devices. And the system will be adaptive
+and interactive from user perspective using some AI techniques and gamification
+science to increase user's engagement. Finally, the objective of the research
+will be to find out a perfect design methodology based on user centered design
+and gamification which will give an adaptive, intelligent and interactive
+E-Learning system interface and system functionalities using machine learning
+algorithms.
+
+\subparagraph{Methodology:}
+The methodology that I will follow in this research is to design an E-Learning
+system for social devices based on user entered design. First of all, I will
+define the problem statements and extended the research questions and
+simultaneously I will study literature review to figure out the best approach
+for designing such a system. The target stakeholders group will be defined; here
+namely the adult student's between 18-22 years old and conduct a set of user
+study such as questionnaire, interviews, observations, focus group and workshops
+and field evaluations of a prototype to collect various qualitative and
+quantitative data. This user study will help to find out a set of stable
+requirements. After getting all response and result, I will analyze the
+collected data for proposed the E-Learning system to enhance gamification;
+namely use case and class diagram of the system. Before designing the system,
+tested some gamification techniques which increase user engagement in the system
+as well as tested some machine learning algorithms for best fitted with the
+system which will basically provide adaptive and intelligent functionalities;
+e.g. learn from environment, user's behavior, previous experiences and suggest
+accordingly. Then I will design an interactive prototype of the system for
+evaluation. The designed prototype could be mid fidelity or high fidelity which
+will decide at development time depending on research activities. Finally, I
+will do various evaluation processes; usability evaluation, user study.
+Depending on users feedback improvement of the design will be done and tested
+that design will fulfill user's needs and requirements. Finally, the system will
+be developed such a way its satisfy usability and users goals.
+
+\subparagraph{Expected Outcomes:}
+The expected outcomes of the proposed study are as follows:
+\begin{enumerate}
+\item Contribute to HCI especially E-Learning after tested some machine learning
+algorithms for best fitted with the system which will basically provide adaptive
+and intelligent functionalities.
+\item Help to HCI community in adaptive and intelligent HCI system design for
+Social Devices.
+\item Gamification to enhance E-Learning system design which will change the
+user's behavior and encourage them in participation, which may improve online
+learning experience.
+\item Contribute and publish paper in ACM CHI, MobileHCI, Ubicomp conferences,
+and journal of Personal and Ubiquitous Computing and International Journal of
+Mobile HCI.
+\end{enumerate}
+
+\section{Research Environment}
+\textbf{Research Group:} Human-Centered Technology (IHTE), Dept. of Pervasive Computing,\\
+Tampere University of Technology.\\
+\textbf{Supervisor:} Professor V\"{a}\"{a}n\"{a}nen-Vainio-Mattila
+
+\section{Research Schedule}
+The Schedule of proposed doctoral research plan is as follows:
+	\begin{enumerate}
+	  \item Literature Review (Jan-Dec 2014)
+	  \item User study [Questionnaire, Field Survey, Interview, Observation etc.] (Jan-Apr 2015)
+	  \item Data Analysis and Design (May 2015-Dec 2015)
+	  \item Evaluation (Jan 2016-Mar 2016)
+	  \item Follow steps 2, 3, 4 iteratively [more than two times]( Apr 2016-Feb 2017)
+	  \item Revision and Thesis Writing (Mar 2017-Dec 2017)
+	\end{enumerate}
+ 
+\bibliographystyle{plainnat}
+\bibliography{RPBibliography}% .bib tex file
+%\clearpage
+\addcontentsline{toc}{section}{Bibliography}
+
+\end{document}

@@ -1,0 +1,74 @@
+\begin{thebibliography}{10}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abras et~al.(2004)Abras, Maloney-Krichmar, and Preece]{Abras2004}
+Chadia Abras, Diane Maloney-Krichmar, and Jenny Preece.
+\newblock {User-centered design}.
+\newblock 2:\penalty0 763--768, 2004.
+
+\bibitem[Bista and Nepal(2012)]{Bista2012}
+SK~Bista and S~Nepal.
+\newblock {Using gamification in an online community}.
+\newblock \emph{8th International Conference Conference on Collaborative
+  Computing: Networking, Applications and Worksharing}, pages 611--618, 2012.
+
+\bibitem[Cheung and Lam(2009)]{Cheung2009}
+K.S. Cheung and J.~Lam.
+\newblock {A framework for developing e-learning solutions}.
+\newblock \emph{2009 Fifth International Conference on Semantics, Knowledge and
+  Grid A}, pages 294--297, 2009.
+\newblock \doi{10.1109/SKG.2009.44}.
+
+\bibitem[{Chiang Fu}(2011)]{Fu2011}
+Ya~{Chiang Fu}.
+\newblock The game of life: Designing a gamification system to increase current
+  volunteer participation and retention in volunteer-based nonprofit
+  organizations.
+\newblock 2011.
+
+\bibitem[Jarusriboonchai et~al.()Jarusriboonchai, Olsson, and
+  V\"{a}\"{a}n\"{a}nen-Vainio-Mattila]{Jarusriboonchai}
+Pradthana Jarusriboonchai, Thomas Olsson, and Kaisa
+  V\"{a}\"{a}n\"{a}nen-Vainio-Mattila.
+\newblock Roles , scenarios and challenges of social devices.
+
+\bibitem[Karray et~al.(2008)Karray, Alemzadeh, Saleh, and Arab]{Karray2008}
+Fakhreddine Karray, Milad Alemzadeh, Jamil~Abou Saleh, and Mo~Nours Arab.
+\newblock Human-computer interaction : Overview on state of the art.
+\newblock \emph{International Journal}, 1\penalty0 (1):\penalty0 137--159,
+  2008.
+
+\bibitem[M\"{a}kitalo et~al.()M\"{a}kitalo, P\"{a}\"{a}kk\"{o}, Raatikainen,
+  Myll\"{a}rniemi, Aaltonen, Lepp\"{a}nen, M\"{a}nnist\"{o}, and
+  Mikkonen]{Makitalo}
+Niko M\"{a}kitalo, Jari P\"{a}\"{a}kk\"{o}, Mikko Raatikainen, Varvana
+  Myll\"{a}rniemi, Timo Aaltonen, Tapani Lepp\"{a}nen, Tomi M\"{a}nnist\"{o},
+  and Tommi Mikkonen.
+\newblock Social devices : Collaborative co-located interactions in a mobile
+  cloud.
+
+\bibitem[O'DONOVAN(2012)]{O'DONOVAN2012}
+S~O'DONOVAN.
+\newblock Gamification of the games course.
+\newblock \emph{Acesso em}, pages 1--8, 2012.
+
+\bibitem[Rogers et~al.(2002)Rogers, Sharp, and Preece]{preece2002interaction}
+Y~Rogers, H~Sharp, and J~Preece.
+\newblock \emph{Interaction design: beyond human-computer interaction}.
+\newblock J. Wiley \& Sons, 2002.
+\newblock ISBN 9780471492788.
+
+\bibitem[V\"{a}\"{a}n\"{a}nen-Vainio-Mattila
+  et~al.()V\"{a}\"{a}n\"{a}nen-Vainio-Mattila, Olsson, Palviainen, and
+  Jarusriboonchai]{Vaananen-vainio-mattila}
+Kaisa V\"{a}\"{a}n\"{a}nen-Vainio-Mattila, Thomas Olsson, Jarmo Palviainen, and
+  Pradthana Jarusriboonchai.
+\newblock Social devices as a new type of social system : Enjoyable or
+  embarrassing experiences ?
+\newblock pages 1--5.
+
+\end{thebibliography}

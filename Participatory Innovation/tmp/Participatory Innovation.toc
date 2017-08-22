@@ -1,0 +1,24 @@
+\select@language {USenglish}
+\contentsline {section}{Contents}{i}{chapter*.1}
+\contentsline {section}{\numberline {1}Background Literature}{1}{section.0.1}
+\contentsline {subsection}{\numberline {1.1}Human computer Interaction}{1}{subsection.0.1.1}
+\contentsline {subsection}{\numberline {1.2}User centered design}{1}{subsection.0.1.2}
+\contentsline {subsection}{\numberline {1.3}Participatory design}{2}{subsection.0.1.3}
+\contentsline {subsection}{\numberline {1.4}Machine learning}{2}{subsection.0.1.4}
+\contentsline {subsection}{\numberline {1.5}Adaptive and Intelligent HCI}{2}{subsection.0.1.5}
+\contentsline {subsection}{\numberline {1.6}Big Data}{3}{subsection.0.1.6}
+\contentsline {section}{\numberline {2}Motivation}{3}{section.0.2}
+\contentsline {section}{\numberline {3}Details of Proposed Research}{3}{section.0.3}
+\contentsline {subsection}{\numberline {3.1}Research Topic}{3}{subsection.0.3.1}
+\contentsline {subsection}{\numberline {3.2}Research Questions}{4}{subsection.0.3.2}
+\contentsline {subsection}{\numberline {3.3}Research Objectives}{4}{subsection.0.3.3}
+\contentsline {subsection}{\numberline {3.4}Methodology}{4}{subsection.0.3.4}
+\contentsline {section}{\numberline {4}Research Plan}{5}{section.0.4}
+\contentsline {subsection}{\numberline {4.1}Literature Review (Jan \IeC {\textendash } Jun 2013):}{5}{subsection.0.4.1}
+\contentsline {subsection}{\numberline {4.2}Questionnaire Design (May \IeC {\textendash } Jun 2013):}{5}{subsection.0.4.2}
+\contentsline {subsection}{\numberline {4.3}Field Survey and Interview (Sep \IeC {\textendash } Oct 2013):}{6}{subsection.0.4.3}
+\contentsline {subsection}{\numberline {4.4}Data Analysis and Design (Nov \IeC {\textendash } May 2015):}{6}{subsection.0.4.4}
+\contentsline {subsection}{\numberline {4.5}Evaluation (Jun \IeC {\textendash } Jul 2015):}{6}{subsection.0.4.5}
+\contentsline {subsection}{\numberline {4.6}Revision and thesis writing (Aug \IeC {\textendash } Dec 2015):}{6}{subsection.0.4.6}
+\contentsline {section}{\numberline {5}Expected Outcomes}{6}{section.0.5}
+\contentsline {section}{Bibliography}{8}{chapter*.2}

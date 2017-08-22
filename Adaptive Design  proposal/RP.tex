@@ -1,0 +1,301 @@
+\documentclass[12pt]{article}
+%\documentclass[11pt,twocolumn]{article}
+
+
+% Any percent sign marks a comment to the end of the line
+
+% Every latex document starts with a documentclass declaration like this
+% The option dvips allows for graphics, 12pt is the font size, and article
+%   is the style
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=blue,
+    filecolor=black,
+    linkcolor=blue,
+    urlcolor=blue,
+    bookmarksopen=false,
+    pdfstartview=FitH
+ 	%	pdfpagemode=None
+}
+
+%\hypersetup{linktocpage}
+\usepackage[numbers]{natbib}
+\usepackage[pdftex]{graphicx}
+\usepackage{url}
+
+% These are additional packages for "pdflatex", graphics, and to include
+% hyperlinks inside a document.
+\setlength{\oddsidemargin}{0.25in}
+\setlength{\textwidth}{6.5in}
+\setlength{\topmargin}{0in}
+\setlength{\textheight}{8.5in}
+
+% These force using more of the margins that is the default style
+
+\begin{document}
+
+% Everything after this becomes content
+% Replace the text between curly brackets with your own
+\title{\LARGE \bfseries Design Adaptive and Intelligent application to help Healthcare Professionals and Patients}
+\author{\bfseries{Supta Richard Philip}}
+%\small supta.philip@gmail.com}
+%\date{\today}
+
+% You can leave out "date" and it will be added automatically for today
+% You can change the "\today" date to any text you like
+
+
+\maketitle
+% This command causes the title to be created in the document
+
+\begin{abstract}
+\phantomsection
+\addcontentsline{toc}{section}{Abstract}
+\thispagestyle{plain}
+Although AI and HCI explore computing and intelligent behavior and the fields
+have seen some crossover, until recently there was not very much research in
+Human computer Interaction (HCI) with Artificial Intelligence. In recent years,
+artificial intelligence (AI) especially machine learning and Human Computer
+Interaction are converging in different researches such as Healthcare, Online
+Learning, etc. There are few researches going on above mentioned fields in
+Human-Computer Interaction (HCI), adaptive HCI and artificial intelligence,
+especially machine learning which handles complex algorithms to provide the
+system its intelligent properties and abilities using previous experiences and
+big data set. In this research,  User Centered Design methodology will be
+followed to develop Healthcare system which also supports adaptive
+functionality, e.g. learn from user previous data set and suggest accordingly;
+for Healthcare Professionals and Patients. To ensure adaptability, Machine
+Learning approaches will be used and system will show intelligent behavior, and
+shall proactively suggest users. Finally the goal of the research is to develop
+a new adaptive healthcare solution which ensures positive user experience and
+perfect suggestions for patients as well as healthcare professionals.\\
+
+\textbf{Keywords:} Healthcare Application, Machine learning, Human-Computer
+Interaction (HCI), Intelligent and Adaptive HCI, User Centered Design.
+\end{abstract}
+
+\section{Introduction}
+In a technology-oriented and information-intense world, nowadays one of the
+great challenges is structuring, arranging, manipulating and delivering the
+information in a coherent, efficient and usable manner. There are a lot research
+going on the above mentioned field such as artificial intelligent especially
+machine learning handling big data through complex algorithm to provide the
+system its own intelligence using previous experiences; Human computer
+interaction especially user centered design, participatory design and sometimes
+adaptive \& intelligent HCI helps to build such successful application or finds
+user requirements as much as close matching of requirements and adopted
+technologies. Aim at comprehensively acquiring user requirements to improve the
+total quality of the application and user satisfaction to use the system.
+Recently HCI has introduced healthcare applications that aim to facilitate
+services to healthcare professionals and patients. The motivation and goal of
+this research is to propose and develop an adaptive and intelligent healthcare
+application for healthcare patients and professional. Although AI and HCI
+explore computing and intelligent behavior and the fields have seen some
+crossover, until recently there was not very much research on advance HCI with
+machine learning.
+
+\section{Theoretical Framework}
+\label{sec:Background}
+\subsection{Human computer Interaction}
+Human Computer Interaction is an area of research and study which deal with
+analysis, design of interactive applications by involving its users in the
+design process; and focuses on the interaction between Human and computer
+applications. In some cases, HCI is also known as man-machine interaction (MMI)
+or computer-human interaction (CHI).
+According to \citet{Dix2004}, HCI is concerned with looking into the
+relationship between human and computer systems and applications that people use
+on their everyday life. In the any HCI design process, User should be emphasized
+first and then the other key aspects are firstly what tasks users want to
+perform when using the system; secondly which characteristics of the user could
+have a significant effect on their performance with the system; thirdly
+developing  the system which meet the user needs and finally the evaluation of
+the developed system should check if it meets users' needs as well as satisfying
+to use and getting users' feedback which helps to develop updated version of the
+system.
+
+\subsection{User centered design}
+User-centered design process (UCD) is also called human-centered design process.
+Human centered design processes for interactive systems, ISO 13407 (1999),
+states: ``Human-centered design is an approach to interactive system development
+that focuses specifically on making systems usable. It is a multi-disciplinary
+activity'' \cite{Veeramani1999}.
+
+In UCD, all ``development proceeds with the user as the center of
+focus''\cite{9780470185483}. Rubin depicts the User-Centered Design Process as follows:
+\begin{itemize}
+  \item The users are in the center of a double circle.
+  \item The inner ring contains: Context; Objectives; Environment and Goals.
+  \item The outer ring contains: Task Detail; Task Content; Task Organization and Task
+Flow.
+\end{itemize}
+
+
+``User-Centered Design (UCD) is a user interface design process that focuses on
+usability goals, user characteristics, environment, tasks, and workflow in the
+design of an interface. UCD follows a series of well-defined methods and
+techniques for analysis, design, and evaluation of mainstream hardware,
+software, and web interfaces. The UCD process is an iterative process, where
+design and evaluation steps are built in from the first stage of projects,
+through implementation''\cite{9781430319528}.
+
+User-Centered Design (UCD) method is used to develop product and system with
+high quality and usability from the perspective of users \cite{Huang2008}.
+
+
+\subsection{Adaptive and Intelligent HCI}
+User centered Design is the part of Human Computer Interaction which is
+multidisciplinary area included various subjects and disciplines. Interaction
+Design is  a process to develop interactive software which ensure usability that
+means the software should be easy to learn, effective to use, and should provide
+an enjoyable experience from the user’s perspective. The key views of
+Interactive Design are easy, effortless, and enjoyable to users
+\cite{preece2002interaction}. This is also known as interactive product
+development methodology. On the other hand, User centered design (UCD) process
+is inscrutable understanding of the psychological, organizational and community
+factors that influences the use of web technology developed from the involvement
+of the user at every phase of the design and evaluation of the product \cite{Abras2004}. The
+key point is that users should be involved in every step of development.
+An Intelligent and Adaptive HCI might be an application which would be adaptive,
+to some extent, if it has the ability to recognize the user and remembers its
+searches, purchases and intelligently search or find, and suggest based on users
+need and choice. Most of this kind of adaptation is the ones that deal with
+cognitive and affective levels of user activity \cite{Karray2008a}.
+
+\subsection{Machine learning}
+Machine learning is a type of artificial intelligence (AI) that provides
+computers or any program some ability to learn without being explicitly
+programmed. Machine learning focuses on the development of computer programs
+that can teach themselves to grow and change when exposed to new data. The
+process of machine learning is search through data to look for patterns. Machine
+learning programs detect patterns in data and adjust program actions
+accordingly \cite{MachineLearning}.
+
+\section{Details of Proposed Research}
+\label{sec:ProposedResearch}
+Since I am interested in HCI, Machine Learning, Adaptive and Intelligent HCI,
+Healthcare applications; I will propose and design a system which will provide
+services to healthcare professionals and patients of our daily life.
+
+\subsection{Research Questions}
+The research questions will be as follows and I will try to figure out the
+research methodology and a best approach (HCI, UCD and Machine learning) to
+design an intelligent, adaptive and interactive healthcare application which
+will handle big data based on user centered design.
+
+\begin{enumerate}
+  \item How could we build an adaptive and intelligent healthcare application for healthcare professionals and patients based on UCD?
+  \item Which machine learning techniques can be used to efficiently implement adaptive and intelligent system based on user centered design methodology?
+  \item How technology can help us in case of solving this problem?
+\end{enumerate}
+
+\subsection{Research Objectives}
+The goal of this research is to develop an adaptive and intelligent healthcare
+system based on user centered design methodology for healthcare professionals
+and patients. And the system will be adaptive and interactive from user
+perspective using some AI techniques especially machine learning algorithm.
+Finally, the objective of the research will be to find out a perfect design
+methodology based on user centered design which will give an adaptive,
+intelligent and interactive healthcare application interface and application
+functionalities using machine learning algorithms.
+
+\subsection{Methodology}
+The methodology that I will follow in this research is to design an adaptive and
+intelligent healthcare application for healthcare professionals and patients
+based on user entered design. First of all, I will define the problem statements
+and extended the research questions and simultaneously I will study literature
+review to figure out the best approach for designing such a system. The target
+stakeholders group will be defined; here namely the healthcare professionals;
+doctors, nurse, pathologist and specialist; and conduct a set of user study such
+as questionnaire, interviews, observations, focus group and workshops and field
+evaluations of a prototype to collect various qualitative and quantitative data.
+This user study will help to find out a set of stable requirements. After
+getting all response and result, I will analyze the collected data for proposed
+the healthcare application interface and UML diagram; namely use case and class
+diagram of the system. Before designing the system, tested some machine learning
+algorithms for best fitted with the system which will basically provide adaptive
+and intelligent functionalities; e.g. learn from environment, user’s behavior,
+previous experiences and suggest accordingly. Then I will design an interactive
+prototype of the system for evaluation. The designed prototype could be mid
+fidelity or high fidelity which will decide at development time depending on
+research activities. Finally, I will do various evaluation processes; usability
+evaluation, user study. Depending on users feedback improvement of the design
+will be done and tested that design will fulfill user’s needs and requirements.
+Finally, the system will be developed such a way its satisfy usability and users
+goals.
+
+\subsection{Expected Outcomes}
+
+The expected outcomes of the proposed study are as follows:
+\begin{enumerate}
+\item Contribute to HCI especially Healthcare sector after tested some machine learning algorithms for best fitted with the system which will basically provide adaptive and intelligent functionalities.
+\item Help to HCI community in adaptive and intelligent HCI system design for Healthcare application.
+\item Contribute and publish paper in ACM CHI, MobileHCI, Ubicomp conferences, and journal of Personal and Ubiquitous Computing and International Journal of Mobile HCI.
+\end{enumerate}
+
+\section{Research Plan}
+In the bellow sections, the research plan for designing adaptive and intelligent healthcare application is presented.
+\subsection{Literature Review (6 Months)}
+In the first part of the study, an extensive review on user centered design in
+adaptive system development using machine learning will be carried out. The
+comprehensive review will be defined a specific system and title of thesis,
+review on such kind of system, analyzed and implemented that system based on
+user centered design. The study will be started with the literature review of
+existing system which using Adaptive techniques, machine learning algorithm and
+handle big data. Journals, books, and other relevant international publications
+including the documents published by universities, research institutes; will be
+examined throughout the study.
+
+\subsection{User study [Questionnaire, Field Survey, Interview, Observation etc.] (4 months)}
+The user study will be complimented with designed questionnaires addressing to
+key stakeholders in the proposed system. The stakeholder questionnaires are
+designed to find out functional requirements of the system. The inquiry will be
+made on stockholder needs and goals. Since the response of the questionnaire
+drives to define functional requirements so in User centered design building a
+stable questionnaire is very important. Some other user study such as field
+survey, interview, and observation also will be followed. So this phase is very
+essential as well as important too.
+
+\subsection{Data Analysis and Design (8 Months)}
+Data analysis is very complex and time consuming part in user centered design
+methodology since user questionnaire response could be qualitative as well as
+quantitative data. After analysis these data, a set of stable requirements, use
+case and class diagram of the system have to derive for going to design phase.
+Design of the propose system should be as much as simple, interactive and ensure
+maximum usability. My goal is to design a mid fidelity prototype of the system.
+
+\subsection{Evaluation (3 Months)}
+The evaluation phase is very important part in interactive system development
+lifecycle. It will ensure the usability of the system; user study could be
+evaluated using different methodology such as task analysis, cognitive
+walkthrough and questionnaire. Analyzed users’ feedback, the design of the
+system would be improved and the system will make more usable as much as
+possible.
+
+\subsection{Follow steps 2, 3, 4 iteratively [more than two times] (9 Months)}
+Since user centered design methodology is iterative procedure, that's why the
+steps 2, 3 and 4 will be followed iteratively until getting a stable version of
+the applications.
+
+\subsection{Revision and thesis writing (6 Months)}
+The research study is expected to produce academic papers to be published in
+local and International Journals, and to be presented in relevant conferences.
+The publication of the result of the study would contribution to the research
+field of HCI and Participatory design where the feedbacks will help me to write
+my final thesis.
+
+\bibliographystyle{plainnat}
+\bibliography{RPBibliography}% .bib tex file
+%\clearpage
+\addcontentsline{toc}{section}{Bibliography}
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% APPENDICES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \appendix
+% %\addcontentsline{toc}{chapter}{Appendix}
+% \chapter{Appendix Hello}
+% \label{append:a}
+
+\end{document}

@@ -1,0 +1,63 @@
+\begin{thebibliography}{8}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Mac()]{MachineLearning}
+{Machine Learning Definition}.
+\newblock \url{http://whatis.techtarget.com/definition/machine-learning}.
+\newblock [Online; accessed 18-September-2013].
+
+\bibitem[Dix et~al.(2004)Dix, Finlay, Abowd, and Beale]{Dix2004}
+Alan Dix, Janet Finlay, Gregory~D Abowd, and Russell Beale.
+\newblock \emph{{Human-Computer-Interaction}}.
+\newblock Pearson Education Limited, 2004.
+\newblock ISBN 9780130461094.
+
+\bibitem[Elliott(2013)]{Elliott2013}
+Timo Elliott.
+\newblock {7 Definitions of Big Data You Should Know About}.
+\newblock
+  \url{http://timoelliott.com/blog/2013/07/7-definitions-of-big-data-you-should-know-about.html},
+  2013.
+\newblock [Online; accessed 19-September-2013].
+
+\bibitem[Henry(2007)]{9781430319528}
+Shawn~Lawton Henry.
+\newblock \emph{Just Ask: Integrating Accessibility Throughout Design}.
+\newblock Lulu.com, 2007.
+\newblock ISBN 1430319526.
+
+\bibitem[Huang et~al.(2008)Huang, Lu, and Sun]{Huang2008}
+Yanan Huang, Rongqing Lu, and Shouqian Sun.
+\newblock {Designing a Cooperative Learning System: A Scenario and
+  Participatory Design Based Approach}.
+\newblock \emph{2008 International Symposium on Computational Intelligence and
+  Design}, pages 334--337, October 2008.
+\newblock \doi{10.1109/ISCID.2008.203}.
+\newblock URL
+  \url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=4725520}.
+
+\bibitem[Rubin and Chisnell(2008)]{9780470185483}
+Jeffrey Rubin and Dana Chisnell.
+\newblock \emph{Handbook of Usability Testing: Howto Plan, Design, and Conduct
+  Effective Tests}.
+\newblock Wiley, 2008.
+\newblock ISBN 0470185481.
+
+\bibitem[Sinhal et~al.(2008)Sinhal, Chaturvedi, and Khan]{Karray2008a}
+A~Sinhal, A~Chaturvedi, and V~Khan.
+\newblock {Human Computer Interaction: Overview on State of the Art}.
+\newblock \emph{ijser.org}, 1\penalty0 (1):\penalty0 137--159, 2008.
+\newblock URL
+  \url{http://www.ijser.org/researchpaper/Human-Computer-Interaction-Overview-on-State-of-the-Art.pdf}.
+
+\bibitem[Veeramani(1999)]{Veeramani1999}
+Neelakantan Veeramani.
+\newblock {UCD ( User Centric Design ) Process}.
+\newblock \url{http://neelsworld.info/documents/UCD.pdf}, 1999.
+\newblock [Online; accessed 15-September-2013].
+
+\end{thebibliography}

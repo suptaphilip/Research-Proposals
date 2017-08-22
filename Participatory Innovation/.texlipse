@@ -1,0 +1,14 @@
+#TeXlipse project settings
+#Tue Sep 17 12:28:27 CEST 2013
+markTmpDer=true
+builderNum=2
+outputDir=
+makeIndSty=
+bibrefDir=
+outputFormat=pdf
+tempDir=tmp
+mainTexFile=Participatory Innovation.tex
+outputFile=Participatory Innovation.pdf
+langSpell=en
+markDer=true
+srcDir=

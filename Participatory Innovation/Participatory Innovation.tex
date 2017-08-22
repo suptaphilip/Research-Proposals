@@ -1,0 +1,388 @@
+%% Based on a TeXnicCenter-Template by Tino Weinkauf.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% HEADER
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper,12pt]{report}
+% Alternative Options:
+%	Paper Size: a4paper / a5paper / b5paper / letterpaper / legalpaper / executivepaper
+% Duplex: oneside / twoside
+% Base Font Size: 10pt / 11pt / 12pt
+%\usepackage{appendix}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=blue,
+    filecolor=black,
+    linkcolor=blue,
+    urlcolor=blue,
+    bookmarksopen=false,
+    pdfstartview=FitH
+ 	%	pdfpagemode=None
+}
+%\hypersetup{linktocpage}
+\usepackage[numbers]{natbib}
+%% Language %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[USenglish]{babel} %francais, polish, spanish, ...
+\usepackage[T1]{fontenc}
+\usepackage[ansinew]{inputenc}
+
+\usepackage{lmodern} %Type1-font for non-english texts and characters
+
+
+%% Packages for Graphics & Figures %%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{graphicx} %%For loading graphic files
+%\usepackage{subfig} %%Subfigures inside a figure
+%\usepackage{pst-all} %%PSTricks - not useable with pdfLaTeX
+
+%% Please note:
+%% Images can be included using \includegraphics{Dateiname}
+%% resp. using the dialog in the Insert menu.
+%% 
+%% The mode "LaTeX => PDF" allows the following formats:
+%%   .jpg  .png  .pdf  .mps
+%% 
+%% The modes "LaTeX => DVI", "LaTeX => PS" und "LaTeX => PS => PDF"
+%% allow the following formats:
+%%   .eps  .ps  .bmp  .pict  .pntg
+
+
+%% Math Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+
+
+%% Line Spacing %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\usepackage{setspace}
+%\singlespacing        %% 1-spacing (default)
+%\onehalfspacing       %% 1,5-spacing
+%\doublespacing        %% 2-spacing
+
+
+%% Other Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\usepackage{a4wide} %%Smaller margins = more text per page.
+%\usepackage{fancyhdr} %%Fancy headings
+%\usepackage{longtable} %%For tables, that exceed one page
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Remarks
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% TODO:
+% 1. Edit the used packages and their options (see above).
+% 2. If you want, add a BibTeX-File to the project
+%    (e.g., 'literature.bib').
+% 3. Happy TeXing!
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Options / Modifications
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\input{options} %You need a file 'options.tex' for this
+%% ==> TeXnicCenter supplies some possible option files
+%% ==> with its templates (File | New from Template...).
+
+\renewcommand\thesection{\arabic{section}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% DOCUMENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\pagestyle{empty} %No headings for the first pages.
+
+
+%% Title Page %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ==> Write your text here or include other files.
+
+%% The simple version:
+\title{\LARGE \bfseries Research Proposal on Participatory Innovation}
+\author{ \bfseries{Supta Richard Philip}\\
+\small supta.philip@gmail.com
+}
+%\date{} %%If commented, the current date is used.
+\maketitle
+
+%% The nice version:
+%\input{titlepage} %%You need a file 'titlepage.tex' for this.
+%% ==> TeXnicCenter supplies a possible titlepage file
+%% ==> with its templates (File | New from Template...).
+
+
+%% Inhaltsverzeichnis %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\thispagestyle{plain}
+\pagenumbering{roman}
+\setcounter{page}{1}
+\tableofcontents %Table of contents
+\addcontentsline{toc}{section}{Contents}
+\cleardoublepage %The first chapter should start on an odd page.
+
+%% The List of Figures
+%\clearpage
+%\addcontentsline{toc}{chapter}{List of Figures}
+
+% \listoffigures
+% \addcontentsline{toc}{section}{List of Figures}
+% %% The List of Tables
+% \clearpage
+% \listoftables
+% \addcontentsline{toc}{section}{List of Tables}
+% 
+% \cleardoublepage
+
+\pagestyle{plain} %Now display headings: headings / fancy / ...
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+\section{Background Literature}
+\label{sec:Background}
+\subsection{Human computer Interaction}
+Human Computer Interaction is an area of research and study which deal with
+analysis, design of interactive applications by involving its users in the
+design process; and focuses on the interaction between Human and computer
+applications. In some cases, HCI is also known as man-machine interaction (MMI)
+or computer-human interaction (CHI).
+According to \citet{Dix2004}, HCI is concerned with looking into the relationship between
+human and computer systems and applications that people use on their everyday
+life. In the any HCI design process, User should be emphasized first and then
+the other key aspects are firstly what tasks users want to perform when using
+the system; secondly which characteristics of the user could have a significant
+effect on their performance with the system; thirdly developing  the system
+which meet the user’s needs and finally the evaluation of the developed system
+should check if it meets users' needs as well as satisfying to use and getting
+users' feedback which helps to develop updated version of the system.
+
+\subsection{User centered design}
+User-centered design process (UCD) is also called human-centered design process.
+Human centered design processes for interactive systems, ISO 13407 (1999),
+states: ``Human-centered design is an approach to interactive system development
+that focuses specifically on making systems usable. It is a multi-disciplinary
+activity'' \cite{Veeramani1999}.
+
+
+In UCD, all ``development proceeds with the user as the center of
+focus''\cite{9780470185483}. Rubin depicts the User-Centered Design Process as follows:
+\begin{itemize}
+  \item The users are in the center of a double circle.
+  \item The inner ring contains: Context; Objectives; Environment and Goals.
+  \item The outer ring contains: Task Detail; Task Content; Task Organization and Task
+Flow.
+\end{itemize}
+
+
+``User-Centered Design (UCD) is a user interface design process that focuses on
+usability goals, user characteristics, environment, tasks, and workflow in the
+design of an interface. UCD follows a series of well-defined methods and
+techniques for analysis, design, and evaluation of mainstream hardware,
+software, and web interfaces. The UCD process is an iterative process, where
+design and evaluation steps are built in from the first stage of projects,
+through implementation''\cite{9781430319528}.
+
+User-Centered Design (UCD) method is used to develop product and system with
+high quality and usability from the perspective of users \cite{Huang2008}.
+
+\subsection{Participatory design}
+Participatory design (PD) is a design method and philosophy that supports the
+direct participation of users and other stakeholders in the system analysis and
+design phase. Participatory design provides a set of methods for bringing users’
+knowledge and valuations directly into the design as well as concerns a range of
+techniques that are supposed to be easy-to-learn and put low demand on the
+users’ beforehand knowledge. General techniques include ethnographic methods,
+questionnaires, future workshops, mock-ups, and prototyping \cite{Huang2008}.
+
+\subsection{Machine learning}
+Machine learning is a type of artificial intelligence (AI) that provides
+computers or any program some ability to learn without being explicitly
+programmed. Machine learning focuses on the development of computer programs
+that can teach themselves to grow and change when exposed to new data. The
+process of machine learning is search through data to look for patterns. Machine
+learning programs detect patterns in data and adjust program actions
+accordingly \cite{MachineLearning}.
+
+\subsection{Adaptive and Intelligent HCI}
+Nowadays, intelligent and adaptive HCI are going to famous; intelligent and
+adaptive system has the ability to learn from the environment and work
+accordingly to reach its goal. Intelligent technologies are used to achieve the
+intelligent and adaptive HCI but the goal always remains the same which is to
+improve the communication between users and machines. Several techniques are
+used to achieve this goal like intelligent input technology, user modeling, and
+user adaptively, explanation generation. An adaptive HCI might be a website
+using regular GUI for selling various products. This website would be adaptive
+-to some extent- if it has the ability to recognize the user and remembers his
+searches and purchases and intelligently search, find, and suggest products on
+sale that it thinks user might need. Most of this kind of adaptation is the ones
+that deal with cognitive and affective levels of user activity \cite{Karray2008a}.
+
+\subsection{Big Data}
+Big Data as the three Vs: Volume, Velocity, and Variety and that is the most
+venerable and well-known definition still now. It is very fast rising research
+field of open source technologies such as Hadoop and other NoSQL; ways of
+storing and manipulating data. Now the data are in everywhere; the record of
+transactions, interactions, and observations. If we want to get benefit those
+data, we need to make it information which helps us to take decision through
+machine leaning method like pattern recognitions, clustering \cite{Elliott2013}.
+
+\section{Motivation}
+In a technology-oriented and information-intense world, nowadays one of the
+great challenges is structuring, arranging, manipulating and delivering the
+information in a coherent, efficient and usable manner. There are a lot research
+going on the above mentioned field such as artificial intelligent especially
+machine learning handling big data through complex algorithm to provide the
+system its own intelligence using previous experiences and real time data; Human
+computer interaction especially user centered design, participatory design and
+sometimes adaptive \& intelligent HCI helps to build such successful application
+or finds user requirements as much as close matching of requirements and adopted
+technologies. Aiming at comprehensively acquiring user requirements to improve
+the total quality of the application and user satisfaction to use the system.
+
+
+I have strong interest in Adaptive and Interactive HCI especially in
+Participatory design and how to use the machine learning techniques to increase
+adaptive functionalities to improve the user satisfaction and system
+performance.
+
+\section{Details of Proposed Research}
+\label{sec:ProposedResearch}
+Since I am interested in HCI, PD, Machine Learning, Adaptive, Intelligent and
+Interactive HCI, Big Data; I will propose and design a system which will solve a
+real life problem of our daily life.
+
+\subsection{Research Topic}
+\textbf{Tentative Research Title:} Proposed and Designing an Intelligent, adaptive and interactive
+system (Which will handle and big real data) for based on participatory design
+approach. \\ \\
+\textbf{Field of Study:} Participatory design, User centered design, Human computer
+Interaction, Machine learning, Real time data, Big data, Intelligent and
+adaptive system.
+
+\subsection{Research Questions}
+The research questions will be as follows and I will try to figure out the
+research methodology and a best approach (HCI, Participatory design and Machine
+learning) to design an intelligent, adaptive and interactive system which will
+handle real time data or big data based on participatory design.
+
+\begin{enumerate}
+  \item How to solve a real life problem using HCI and participatory design?
+  \item How technology can help us in case of solving that problem?
+  \item How efficiently use machine learning techniques which help to design
+  interactive, adaptive and intelligent system based on participatory design
+  methodology?
+\end{enumerate}
+
+\subsection{Research Objectives}
+The goal of this research is to develop a system based on participatory design
+methodology which will solve a real word problem. And the system will handle
+real time data as well as big data efficiently using machine learning
+techniques. Finally, the objective of the research will be find out a perfect
+design methodology based on participatory design which will gives an adaptive,
+intelligent and interactive system interface and system functionalities using
+machine learning algorithms.
+
+\subsection{Methodology}
+The methodology here I proposed which based on participatory design. First of
+all, I will find out a real life problem which will be solved by technologies.
+Then I will define the problem statements and extended the research questions
+and simultaneously I will study literature review to figure out the best
+approach for design such a system. The different stakeholders will be found out
+and developed a set of questionnaires to collect various data such as
+qualitative and quantitative data. The questionnaires will be helpful for user
+study, interviews, focus group and workshops to find out a set of stable
+requirements. After getting all response and result, I will analysis the
+collected data for proposed the system; namely use case and class diagram of the
+system. Before design the system, tested some machine learning algorithms for
+best fitted with the system which will basically provide adaptive and
+intelligent functionalities. Then I will design a interactive prototype of the
+system for evaluation. The designed prototype could be mid fidelity or high
+fidelity which will decide at development time depend on research activities.
+Finally, I will do various evaluation processes; usability evaluation, user
+study. Depend on users feedback improvement of the design will be done and
+tested that design will fulfill user’s needs and requirements. Finally, the
+system will be developed such a way its satisfy usability and users goals.
+
+\section{Research Plan}
+In the bellow sections, the research plan for participatory innovation is presented.
+\subsection{Literature Review (Jan – Jun 2013):}
+In the first part of the study, an extensive review on Participatory design in
+adaptive system development using machine learning will be carried out. The
+comprehensive review will be defined a specific system and title of thesis,
+review on such kind of system, analyzed and implemented that system based on
+participatory design. The study will be started with the literature review of
+existing system which using Adaptive techniques, machine learning algorithm and
+handle big data. Journals, books, and other relevant international publications
+including the documents published by universities, research institutes; will be
+examined throughout the study.
+
+\subsection{Questionnaire Design (May – Jun 2013):}
+The study will be complimented with designed questionnaires addressing to key
+stakeholders in the proposed system. The stakeholder questionnaires are designed
+to find out functional requirements of the system. The inquiry will be made on
+stockholder needs and goals. Since the response of the questionnaire drives to
+define functional requirements so in participatory design or Interaction design,
+building a stable questionnaire is very important. So this phase is very
+essential as well as important too.
+
+\subsection{Field Survey and Interview (Sep – Oct 2013):}
+Field study and users’ interview are another efficient and important phase in
+participatory design. To find out stable requirements field survey and interview
+gives qualitative and quantitative data.
+\subsection{Data Analysis and Design (Nov – May 2015):}
+Data analysis is very complex and time consuming part in participatory design
+methodology since user questionnaire response could be qualitative as well as
+quantitative data. After analysis these data, a set of stable requirements, use
+case and class diagram of the system have to derive for going to design phase.
+Design of the propose system should be as much as simple, interactive and ensure
+maximum usability. My goal is to design a mid fidelity prototype of the system.
+\subsection{Evaluation (Jun – Jul 2015):}
+The evaluation phase is very important part in interactive system development
+lifecycle. It will ensure the usability of the system; user study could be
+evaluated using different methodology such as task analysis, cognitive
+walkthrough and questionnaire. Analyzed users' feedback, the design of the
+system would be improved and the system will make more usable as much as
+possible.
+
+\subsection{Revision and thesis writing (Aug – Dec 2015):}
+The research study is expected to produce academic papers to be published in
+local and International Journals, and to be presented in relevant conferences.
+The publication of the result of the study would contribution to the research
+field of HCI and Participatory design where the feedbacks will help me to write
+my final thesis.
+
+\section{Expected Outcomes}
+
+The expected outcomes of the proposed study are as follows:
+\begin{enumerate}
+\item Contribute some new techniques of machine learning algorithm in HCI.
+\item Find a PD methodology to design a system that handles real time data and big data.
+\item Help to HCI community in adaptive HCI system design.
+\item Target Conferences
+
+	\begin{enumerate}
+	\item SIGCHI CHI 2015 — April 17 - 23, Seoul, Korea 2015.
+	\item HCI International 2014 22 - 27 June 2014 - Heraklion, Crete, Greece.
+	\item Mobile HCI Denmark 2015.
+	\end{enumerate}
+	
+\end{enumerate}
+
+
+\bibliographystyle{plainnat}
+\bibliography{Bibliography}% .bib tex file
+%\clearpage
+\addcontentsline{toc}{section}{Bibliography}
+\cleardoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% APPENDICES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \appendix
+% %\addcontentsline{toc}{chapter}{Appendix}
+% \chapter{Appendix Hello}
+% \label{append:a}
+
+\end{document}
+
