@@ -2,7 +2,7 @@
 # List of Research proposal
 
 
-1.[Research proposal on Adaptive Design](../Research-Proposals/Adaptive Design proposal/RP.pdf)
+1.[Research proposal on Adaptive Design](../Research-Proposals/blob/master/Adaptive Design proposal/RP.pdf)
 
 
 2.[Participatory Innovation](../Research-Proposals/Participatory Innovation/Proposal for Participatory Innovation.pdf)
