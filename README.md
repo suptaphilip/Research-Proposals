@@ -8,4 +8,4 @@
 2.[Research Proposal Adaptive E-Learning System](../Research-Proposals/Research Proposal Adaptive E-Learning System/PR2.pdf)
 
 
-3.[Research proposal on Adaptive Design](../Research-Proposals/Adaptive Design proposal/RP.pdf)
+3.[Adaptive Design proposal](../Research-Proposals/Adaptive Design proposal/RP.pdf)
